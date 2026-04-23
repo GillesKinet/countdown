@@ -1,0 +1,22 @@
+* {
+  background-color: black;
+  color: azure;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+p {
+  color: red;
+  font-size: 35px;
+}
+
+img {
+  border-radius: 10px;
+}
