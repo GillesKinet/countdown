@@ -8,7 +8,7 @@ function randomVal(arr) {
 }
 
 const today = new Date();
-const end = new Date(2026, 5, 1);
+const end = new Date(2026, 4, 31);
 const daysBetween = getDaysBetween(today, end);
 
 const daysLeft = document.querySelector(".days-left");
